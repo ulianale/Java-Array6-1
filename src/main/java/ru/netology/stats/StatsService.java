@@ -4,7 +4,6 @@ public class StatsService {
     public long sumAllSales(long[] sales) {     // Сумма всех продаж
         long sum = 0;
         for (long sale : sales) {
-            //for (int i = 0; i < sales.length; i++) {
             sum = sum + sale;
         }
         return sum;
